@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import Main from './components/Main';
+import {Form} from "./components/Form"
 
 function App() {
 
@@ -14,7 +15,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Main data = {obj}/>
+      {/* <Main data = {obj}/> */}
+      <Form/>
     </div>
   );
 }
